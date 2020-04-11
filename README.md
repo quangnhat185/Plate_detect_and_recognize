@@ -5,4 +5,4 @@
 - [x] _Currently up-to-date with Part 1_
 
 ## Credit
-sergiomsilva(https://github.com/sergiomsilva/alpr-unconstrained)
+[sergiomsilva](https://github.com/sergiomsilva/alpr-unconstrained)
