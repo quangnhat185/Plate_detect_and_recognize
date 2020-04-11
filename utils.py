@@ -1,13 +1,7 @@
 # pylint: disable=invalid-name, redefined-outer-name, missing-docstring, non-parent-init-called, trailing-whitespace, line-too-long
 import cv2
 import numpy as np
-import logging
 
-logging.basicConfig(filename='log_file.txt',
-                            filemode='a',
-                            format='%(asctime)s,%(msecs)d %(name)s %(message)s',
-                            datefmt='%H:%M:%S',
-                            level=logging.DEBUG)
 
 class Label:
     def __init__(self, cl=-1, tl=np.array([0., 0.]), br=np.array([0., 0.]), prob=None):
@@ -64,10 +58,6 @@ class DLabel(Label):
         tl = np.amin(pts, axis=1)
         br = np.amax(pts, axis=1)
         Label.__init__(self, cl, tl, br, prob)
-
-# image processing
-def im2single(Image):
-    return Image.astype('float32') / 255
 
 def getWH(shape):
     return np.array(shape[1::-1]).astype(float)
