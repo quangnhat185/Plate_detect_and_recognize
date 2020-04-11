@@ -4,5 +4,7 @@
 
 - [x] _Currently up-to-date with Part 1_
 
+<p align="center"><img src="part1_result.jpg" width=640></p>
+
 ## Credit
 [sergiomsilva](https://github.com/sergiomsilva/alpr-unconstrained)
