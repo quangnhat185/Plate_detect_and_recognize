@@ -175,6 +175,7 @@ def reconstruct(I, Iresized, Yr, lp_threshold):
     out_size, lp_type = (two_lines, 2) if ((final_labels_frontal[0].wh()[0] / final_labels_frontal[0].wh()[1]) < 1.7) else (one_line, 1)
 
     TLp = []
+    Cor = []
     if len(final_labels):
         final_labels.sort(key=lambda x: x.prob(), reverse=True)
         for _, label in enumerate(final_labels):
@@ -183,7 +184,8 @@ def reconstruct(I, Iresized, Yr, lp_threshold):
             H = find_T_matrix(ptsh, t_ptsh)
             Ilp = cv2.warpPerspective(I, H, out_size, borderValue=0)
             TLp.append(Ilp)
-    return final_labels, TLp, lp_type, ptsh
+            Cor.append(ptsh)
+    return final_labels, TLp, lp_type, Cor
 
 def detect_lp(model, I, max_dim, lp_threshold):
     min_dim_img = min(I.shape[:2])
@@ -195,6 +197,5 @@ def detect_lp(model, I, max_dim, lp_threshold):
     Yr = model.predict(T)
     Yr = np.squeeze(Yr)
     #print(Yr.shape)
-    
-    L, TLp, lp_type, ptsh = reconstruct(I, Iresized, Yr, lp_threshold)
-    return L, TLp, lp_type, ptsh
+    L, TLp, lp_type, Cor = reconstruct(I, Iresized, Yr, lp_threshold)
+    return L, TLp, lp_type, Cor
