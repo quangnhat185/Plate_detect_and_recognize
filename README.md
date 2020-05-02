@@ -1,4 +1,4 @@
-[Read the series from Medium](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
+##[Read the series from Medium](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
 
 # Detect and Recognize Vehicle’s License Plate with Machine Learning and Python 
 
