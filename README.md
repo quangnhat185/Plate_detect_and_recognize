@@ -6,8 +6,8 @@
 - [x] _Currently up-to-date with Part 2_
 
 
-<p align="center"><img src="part1_result.jpg" width=640></p>
-<p align="center"><img src="part2_result.jpg" width=640></p>
+<p align="center"><img src="Part1_result.jpg" width=640></p>
+<p align="center"><img src="Part2_result.jpg" width=640></p>
 
 
 
