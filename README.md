@@ -3,8 +3,13 @@
 # Detect and Recognize Vehicle’s License Plate with Machine Learning and Python 
 
 - [x] _Currently up-to-date with Part 1_
+- [x] _Currently up-to-date with Part 2_
+
 
 <p align="center"><img src="part1_result.jpg" width=640></p>
+<p align="center"><img src="part2_result.jpg" width=640></p>
+
+
 
 ## Credit
 [sergiomsilva](https://github.com/sergiomsilva/alpr-unconstrained)
