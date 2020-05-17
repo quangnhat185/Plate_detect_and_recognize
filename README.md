@@ -6,9 +6,9 @@
 - [x] _Currently up-to-date with Part 2_
 
 
-<p align="center"><img src="./Part1_result.jpg" width=640></p>
-<p align="center"><img src="./Part2_result.jpg" width=640></p>
-
+<p align="center"><img src="./figures/Part1_result.jpg" width=640></p>
+<p align="center"><img src="./figures/Part2_result.jpg" width=640></p>
+<p align="center"><img src="./figures/Part3_result.jpg" width=640></p>
 
 
 ## Credit
