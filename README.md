@@ -3,14 +3,27 @@
 - Part 2: [Plate character segmentation with OpenCV](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-2-plate-de644de9849f)
 - Part 3: [Recognize plate license characters with OpenCV and Deep Learning](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-3-recognize-be2eca1a9f12)
 
+## Tools and Libraries
+- Python==3.6
+- Keras==2.3.1
+- Tensorflow==1.14.0
+- Numpy==1.17.4
+- Matplotlib==3.2.1
+- OpenCV==4.1.0
+- sklearn==0.21.3
+
 # Detect and Recognize Vehicle’s License Plate with Machine Learning and Python 
 
-- [x] _Currently up-to-date with Part 1_
-- [x] _Currently up-to-date with Part 2_
-- [x] _Currently up-to-date with Part 3_
+### Part 1: Detection License Plate with Wpod-Net
 
 <p align="center"><img src="./figures/Part1_result.jpg" width=640></p>
+
+### Part 2: Plate character segmentation with OpenCV
+
 <p align="center"><img src="./figures/Part2_result.jpg" width=640></p>
+
+### Part 3: Recognize plate license characters with OpenCV and Deep Learning
+
 <p align="center"><img src="./figures/Part3_result.jpg" width=640></p>
 
 
