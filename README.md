@@ -1,3 +1,8 @@
+## Update
+- Rename `utils.py` to  `local_utils.py` to avoid conflicit with default Python library `utils.py`.
+- Replace error "index out of range" to "No License plate is founded!".
+- In case error "No License Plate is founded!" popped up, try to adjust Dmin inf get_plate() function.
+
 ## [Read the series on Medium](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
 - Part 1: [Detection License Plate with Wpod-Net](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
 - Part 2: [Plate character segmentation with OpenCV](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-2-plate-de644de9849f)
