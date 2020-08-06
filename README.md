@@ -1,7 +1,7 @@
 ## Update
 __(29/7/2020)__
 - Rename `utils.py` to  `local_utils.py` to avoid conflicit with default Python library `utils.py`.
-- Replace error "index out of range" to "No License plate is founded!".
+- Replace error `index out of range` to `No License plate is founded!`.
 - In case error "No License Plate is founded!" popped up, try to adjust Dmin from get_plate() function.
 
 ## [Read the series on Medium](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
