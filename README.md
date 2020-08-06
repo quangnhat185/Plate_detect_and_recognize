@@ -2,7 +2,7 @@
 __(29/7/2020)__
 - Rename `utils.py` to  `local_utils.py` to avoid conflicit with default Python library `utils.py`.
 - Replace error `index out of range` to `No License plate is founded!`.
-- In case error "No License Plate is founded!" popped up, try to adjust Dmin from get_plate() function.
+- In case error `No License Plate is founded!` popped up, try to adjust Dmin from get_plate() function. Keep in mind that larger Dmin means more higly the plate information is lost.
 
 ## [Read the series on Medium](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
 - Part 1: [Detection License Plate with Wpod-Net](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
